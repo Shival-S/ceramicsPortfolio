@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John's Ceramics Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+        .about, .gallery, .contact {
+            margin-bottom: 2rem;
+        }
+        .about h2, .gallery h2, .contact h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 1rem;
+            border: 1px solid #ddd;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact form input, .contact form textarea {
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+        }
+        .contact form button {
+            padding: 0.5rem;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .contact form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>John's Ceramics Portfolio</h1>
+        <p>by John</p>
+    </header>
+    <div class="container">
+        <section class="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm John, a high school student passionate about ceramics. I enjoy experimenting with different techniques and materials to create unique and meaningful pieces. Welcome to my portfolio!</p>
+        </section>
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="https://example.com/image1.jpg" alt="Ceramic Vase">
+            <p>This is a handcrafted ceramic vase featuring intricate floral patterns. The use of natural colors gives it an earthy feel.</p>
+            <img src="https://example.com/image2.jpg" alt="Ceramic Bowl">
+            <p>A beautifully glazed ceramic bowl with a deep blue finish. Perfect for serving or as a decorative piece.</p>
+            <img src="https://example.com/image3.jpg" alt="Ceramic Sculpture">
+            <p>This abstract ceramic sculpture plays with shapes and textures, showcasing the versatility of clay as a medium.</p>
+        </section>
+        <section class="contact">
+            <h2>Contact</h2>
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
